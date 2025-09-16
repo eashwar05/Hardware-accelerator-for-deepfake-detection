@@ -17,7 +17,7 @@ class MesoInception4(nn.Module):
                            Use 1 for binary classification (deepfake detection)
                            and 10 for CIFAR-10 classification.
     """
-    def __init__(self, num_classes=1):
+    def __init__(self, num_classes=10):
         super(MesoInception4, self).__init__()
         self.num_classes = num_classes
         

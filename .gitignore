@@ -1,0 +1,31 @@
+# .gitignore
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Training and Inference Outputs
+# Trained model weights
+*.pth
+*.pt
+*.onnx
+
+# Vitis AI and FPGA-related files
+*.xmodel
+*.json
+*.log
+vitis_ai_flow/
+dpu_project/
+
+# Datasets and large data files
+data/
+datasets/
