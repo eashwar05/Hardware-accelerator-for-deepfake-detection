@@ -1,7 +1,11 @@
 # requirements.txt
-torch>=2.0.0
-torchvision>=0.15.0
+
+torch>=1.10
+torchvision>=0.11
 numpy
+opencv-python
 scikit-learn
-Pillow
 tqdm
+Pillow
+facenet-pytorch
+timm
