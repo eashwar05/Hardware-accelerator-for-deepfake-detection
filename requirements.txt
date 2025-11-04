@@ -9,3 +9,7 @@ tqdm
 Pillow
 facenet-pytorch
 timm
+brevitas
+onnx
+onnxruntime
+torcheval
